@@ -1,6 +1,6 @@
 # udemy-1
 
-> My rad Nuxt.js project
+> My first Nuxt.js project
 
 ## Build Setup
 
