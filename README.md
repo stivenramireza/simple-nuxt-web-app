@@ -1,7 +1,22 @@
-# Simple Nuxt Web App
+# udemy-1
 
-Simple web application using Nuxt.js (Server Side Rendering).
+> My first Nuxt.js project
 
-<p align="center">
-<img src="https://miro.medium.com/max/920/1*JJCS-aZEdKAORSHQsrdGWQ.png">
-</p>
+## Build Setup
+
+``` bash
+# install dependencies
+$ npm run install
+
+# serve with hot reload at localhost:3000
+$ npm run dev
+
+# build for production and launch server
+$ npm run build
+$ npm run start
+
+# generate static project
+$ npm run generate
+```
+
+For detailed explanation on how things work, checkout [Nuxt.js docs](https://nuxtjs.org).
