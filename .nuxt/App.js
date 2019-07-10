@@ -6,12 +6,15 @@ import '../node_modules/bootstrap/dist/css/bootstrap.css'
 
 import '../node_modules/bootstrap-vue/dist/bootstrap-vue.css'
 
-import _6f6c098b from '../layouts/default.vue'
+import '../assets/css/main.css'
 
-const layouts = { "_default": _6f6c098b }
+import _6f6c098b from '../layouts/default.vue'
+import _9659b796 from '../layouts/nosotros.vue'
+
+const layouts = { "_default": _6f6c098b,"_nosotros": _9659b796 }
 
 export default {
-  head: {"title":"udemy-1","meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"hid":"description","name":"description","content":"My rad Nuxt.js project"}],"link":[{"rel":"icon","type":"image\u002Fx-icon","href":"\u002Ffavicon.ico"}],"style":[],"script":[]},
+  head: {"title":"udemy-1","meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"hid":"description","name":"description","content":"My rad Nuxt.js project"}],"link":[{"rel":"icon","type":"image\u002Fx-icon","href":"\u002Ffavicon.ico"},{"rel":"stylesheet","href":"https:\u002F\u002Ffonts.googleapis.com\u002Fcss?family=Literata&display=swap"}],"style":[],"script":[]},
 
   render(h, props) {
     const loadingEl = h('NuxtLoading', { ref: 'loading' })
