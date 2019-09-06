@@ -1,4 +1,4 @@
-# udemy-1
+# Simple Nuxt Web Application
 
 > My first Nuxt.js project
 
